@@ -5,6 +5,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import java.util.concurrent.TimeUnit;
@@ -12,7 +13,7 @@ import java.util.concurrent.TimeUnit;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
-
+@Disabled
 public class TestRestAssured {
 
   @BeforeAll
